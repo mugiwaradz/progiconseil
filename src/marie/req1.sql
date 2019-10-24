@@ -1,1 +1,4 @@
-select  * from TOPADDIN.GESTION_RETARD
+select *
+from ALL_TAB_COLUMNS
+where COLUMN_NAME like '%ID_SYS_FORM_LINK_FILE%'
+  and OWNER = 'TOPSYS'
